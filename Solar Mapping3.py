@@ -7,10 +7,11 @@ VWORLD_API_KEY = "3EF5EC0C-5706-3665-ADBA-BEAFFD4B74CC"
 
 st.set_page_config(page_title="브이월드 주소 지도 서비스", layout="centered")
 
-st.title("브이월드 주소 → 지도 표시")
+st.title("안녕 이거 타이틀이야")
 st.write("아래에 주소를 입력하고 '조회'를 눌러주세요.")
 
 address = st.text_input("주소 입력 (예: 서울특별시 중구 세종대로 110)")
+
 
 def get_coordinates(address):
     url = "http://api.vworld.kr/req/address"
